@@ -16,6 +16,13 @@
     text-shadow: 0.1em 0.1em 0.1em rgb(60, 60, 60)
 }
 
+.menu-fixed {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+}
+
 nav{
     top: 110px;
     right: 0px;
@@ -55,7 +62,8 @@ nav a{
 
 #linkedin, #github{
     margin-top: 25px;
-    width: 2.5%;
+    width: 3%;
+    min-width: 40px;
 }
 
 .linea-principal{
@@ -150,12 +158,12 @@ em strong{
 
 #Python{
     width: 20%;
-    min-width: 90px;
+    min-width: 50px;
     margin: 15px;
 }
 
 #HTML-CSS{
-    width: 40%;
+    width: 35%;
     min-width: 100px;
     margin: 15px;
 }
