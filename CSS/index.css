@@ -1,51 +1,3 @@
-.titulo-principal{
-    padding: 30px;
-    font-size: 40px;
-    font-weight: bold;
-    background: #ececec;
-    text-align: center;
-    text-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173)
-}
-
-.menu{
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    background: #000000;
-    padding: 15px;
-    text-shadow: 0.1em 0.1em 0.1em rgb(60, 60, 60)
-}
-
-.menu-fixed {
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
-}
-
-nav{
-    top: 110px;
-    right: 0px;
-}
-
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a{
-    text-transform: uppercase;
-    color: #ececec;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.menu a:hover{
-    cursor: pointer;
-    border-bottom: 2px solid #ececec;
-}
-
 /*Aqui comienza el contenido*/
 #foto{
     width: 10%;
@@ -67,7 +19,7 @@ nav a{
 }
 
 .linea-principal{
-    background: url(../Images/bannerportafolio3.jpg);
+    background: url(../img/bannerportafolio3.jpg);
     padding: 40px;
 }
 
@@ -80,7 +32,7 @@ nav a{
 
 /*Aca comienza la segunda linea*/
 .linea-secundaria{
-    background: #ececec;
+    background: lightgrey;
     padding: 40px;
 }
 
@@ -109,7 +61,7 @@ em strong{
 
 /*aca comienza la tercera linea*/
 .linea-tercera{
-    background: url(../Images/portafolio2.jpg);
+    background: url(../img/portafolio2.jpg);
     background-position: center;
 
 }
@@ -156,6 +108,10 @@ em strong{
     text-shadow: 0.1em 0.1em 0.1em rgb(0, 6, 96)
 }
 
+.items a {
+    padding: 0 auto 0 auto;
+}
+
 #Python{
     width: 20%;
     min-width: 50px;
@@ -176,7 +132,6 @@ em strong{
 
 /*aca comienza el pie de pagina*/
 .Copyright{
-    background: #ececec;
+    background: lightgrey;
     font-size: 13px;
-    margin: 5px;
 }

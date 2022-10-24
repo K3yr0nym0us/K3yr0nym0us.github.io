@@ -1,24 +1,17 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <title>Contacto</title>
     
-        <link rel="stylesheet" href="CSS/reset.css">
-        <link rel="stylesheet" href="CSS/contacto.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/contacto.css">
     </head>
 
-    <body>
-
+    <body class="cuerpo">
         <header>
-
             <div class="caja">
-
-                <!--alt sirve para dar informacion de la imagen que se esta cargando-->
-                <h1><img src="Images/blanco.png" alt=""></h1>
-
+                <h1><img src="img/blanco.png" alt=""></h1>
                 <nav>
                     <ul>
                         <li><a href="Index.html">Home</a></li>
@@ -26,86 +19,60 @@
                         <li><a href="Contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
-
             </div>
-
         </header>
 
         <main>
             <p class="informacion">¡ATENCION!<br><br>
                 Esta pagina es solo de muestra y su funcion de contacto NO se encuenta implementada.
             </p>
-            <!--la etiqueta form se usa para crear formularios-->
+
             <form>
-                <!--input creamos una caja de texto-->
-                <!--con label le indicamos el texto que queremos indicar previo al input-->
                 <label for="nombre-apellido">Nombre y Apellido </label><input type="text" id="nombre-apellido" class="input-padron" required placeholder="Juan Perez">
                 <!--con required obligamos al usuario a llenar los campos para poder enviar el formulario-->
                 <label for="correo">Correo </label><input type="email" id="correo" class="input-padron" required placeholder="email@ejemplo.com">
                 <!--placeholder sirve para darle al usuario un ejemplo del tipo de dato que debe ingresar-->
                 <label for="telefono">Telefono </label><input type="tel" id="telefono" class="input-padron" required placeholder="XX XXXX XXXX">
-
-                <!--textarea crea una caja de texto de tamanio modificable-->
                 <label for="mensaje">Mensaje</label>
                 <textarea id="mensaje" cols="68" rows="10" class="input-padron" required></textarea>
-
-                <!--con fieldset le indicamos al navegador que los items dentro de el mismo pertenecen al mismo grupo-->
+                
                 <fieldset>
                     <legend id="preferencia">¿Como le gusta que lo contacte?</legend>
-
-                    <!--radio crea un boton de check redondo-->
                     <label for="radio-email"><input type="radio" name="contacto" value="email" 
                     id="radio-email">E-mail</label>
-                    
-
-                    <!--al darle un valor name igual a todos podras obligar a 
-                    escoger solo una de las opciones-->
+                    <!--
+                        al darle un valor name igual a todos podras obligar al usuario a 
+                        escoger solo una de las opciones
+                    -->
                     <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" 
                     id="radio-telefono">Telefono</label>
-                    
-
                     <label for="radio-WhatsApp"><input type="radio" name="contacto" value="WhatsApp" 
                     id="radio-WhatsApp" checked>WhatsApp</label>
-                    
                 </fieldset>
 
                 <fieldset>
-
-                    <!--con select podemos crear una caja de opciones de seleccion-->
                     <legend id="horario">¿En que horario prefiere ser contactado?</legend>
                     <select>
-                    <!--con option le damos las opciones a la caja de opciones-->
                     <option>Mañana</option>
                     <option>Tarde</option>
                     <option>Noche</option>
                     </select>
-                    
                 </fieldset>
-                
-                <!--con checkbox creamos una caja de check cuadrada-->
-                <label class="checkbox" for=""><input type="checkbox" checked>¿Le gustaria recibir novedades de mis desarrollos?</label>
-                
-                <!--submit se usa para crear un boton de enviar datos-->
-                <input type="submit" value="Enviar formulario" class="enviar">
 
+                <label class="checkbox" for=""><input type="checkbox" checked>¿Le gustaria recibir novedades de mis desarrollos?</label>
+                <input type="submit" value="Enviar formulario" class="enviar">
             </form>
 
             <table>
-
-                <!--con thead definimos el encabezado de la tabla-->
                 <thead>
-                    <!--table rose indica las lineas de las tablas-->
                     <tr>
-                        <!--con th definimos los titulos de los encabezados-->
                         <th>Dia</th>
                         <th>Horario</th>
                     </tr>
                 </thead>
 
-                <!--con tbody le damos el cuerpo a la tabla-->
                 <tbody>
                     <tr>
-                        <!--con td definimos las columnas-->
                         <td>Lunes - Viernes</td>
                         <td>08h ~ 20h</td>
                     </tr>
@@ -115,7 +82,6 @@
                         <td>10h ~ 18h</td>
                     </tr>
                 </tbody>
-            
             </table>
         </main>
 
@@ -123,5 +89,4 @@
             <p class="Copyright">&copy Copyrigth K3yr0nym0us - 2022</p>
         </footer>
     </body>
-
 </html>

@@ -1,5 +1,9 @@
 header{
-    background: #BBBBBB;
+    background: lightgrey;
+}
+
+.cuerpo {
+    background: #efefef;
 }
 
 h1 img{
@@ -130,7 +134,7 @@ th, td{
 
 footer{
     text-align: center;
-    background: url(../Images/bannerportafolio3.jpg);
+    background: url(../img/bannerportafolio3.jpg);
     padding: 15px;
 }
 
