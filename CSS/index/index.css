@@ -19,7 +19,7 @@
 }
 
 .linea-principal{
-    background: url(../img/bannerportafolio3.jpg);
+    background: url(../../img/bannerportafolio3.jpg);
     padding: 40px;
 }
 
@@ -61,7 +61,7 @@ em strong{
 
 /*aca comienza la tercera linea*/
 .linea-tercera{
-    background: url(../img/portafolio2.jpg);
+    background: url(../../img/portafolio2.jpg);
     background-position: center;
 
 }
@@ -128,10 +128,4 @@ em strong{
     width: 25%;
     min-width: 90px;
     margin: 15px;
-}
-
-/*aca comienza el pie de pagina*/
-.Copyright{
-    background: lightgrey;
-    font-size: 13px;
 }

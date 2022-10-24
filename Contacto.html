@@ -3,20 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <title>Contacto</title>
-    
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/contacto.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/contacto/contacto.css">        
+        <link rel="stylesheet" href="css/pie.css">  
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/main.js"></script>      
     </head>
 
     <body class="cuerpo">
         <header>
-            <div class="caja">
-                <h1><img src="img/blanco.png" alt=""></h1>
+            <h1 class="titulo-principal">Contacto</h1>
+
+            <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="Index.html">Home</a></li>
-                        <li><a href="Proyectos.html">Productos</a></li>
-                        <li><a href="Contacto.html">Contacto</a></li>
+                        <li><a href="Index.html">HOME</a></li>
+                        <li><a href="Proyectos.html">PROYECTOS</a></li>
+                        <li><a href="Contacto.html">CONTACTO</a></li>
                     </ul>
                 </nav>
             </div>
@@ -29,9 +33,15 @@
 
             <form>
                 <label for="nombre-apellido">Nombre y Apellido </label><input type="text" id="nombre-apellido" class="input-padron" required placeholder="Juan Perez">
-                <!--con required obligamos al usuario a llenar los campos para poder enviar el formulario-->
+                <!--
+                    con required obligamos al usuario a llenar los campos 
+                    para poder enviar el formulario
+                -->
                 <label for="correo">Correo </label><input type="email" id="correo" class="input-padron" required placeholder="email@ejemplo.com">
-                <!--placeholder sirve para darle al usuario un ejemplo del tipo de dato que debe ingresar-->
+                <!--
+                    placeholder sirve para darle al usuario un ejemplo 
+                    del tipo de dato que debe ingresar
+                -->
                 <label for="telefono">Telefono </label><input type="tel" id="telefono" class="input-padron" required placeholder="XX XXXX XXXX">
                 <label for="mensaje">Mensaje</label>
                 <textarea id="mensaje" cols="68" rows="10" class="input-padron" required></textarea>
@@ -41,8 +51,8 @@
                     <label for="radio-email"><input type="radio" name="contacto" value="email" 
                     id="radio-email">E-mail</label>
                     <!--
-                        al darle un valor name igual a todos podras obligar al usuario a 
-                        escoger solo una de las opciones
+                        al darle un valor name igual a todos podras obligar al usuario 
+                        a escoger solo una de las opciones
                     -->
                     <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" 
                     id="radio-telefono">Telefono</label>

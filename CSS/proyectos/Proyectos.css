@@ -10,17 +10,17 @@
 }
 
 .Fondo-Principal{
-    background: url(../img/code2.png);
+    background: url(../../img/code2.png);
     padding: 30px;
 }
 
 .fondo-html-css{
-    background: url(../img/bannerportafolio3.jpg);
+    background: url(../../img/bannerportafolio3.jpg);
     padding: 30px;
 }
 
 .fondo-redhat{
-    background: url(../img/portafolio2.jpg);
+    background: url(../../img/portafolio2.jpg);
     padding: 30px;
 }
 
