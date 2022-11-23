@@ -14,7 +14,7 @@
 
 .linea-principal p{
     font-size: 2rem;
-    color: #ececec;
+    color: whitesmoke;
     text-shadow: 0.1em 0.1em 0.1em rgb(80, 80, 80)
 }
 
@@ -25,7 +25,7 @@
 
 /*Aca comienza la segunda linea*/
 .linea-secundaria{
-    background: lightgrey;
+    background: whitesmoke;
     padding: 40px;
     text-align: center;
 }
@@ -60,7 +60,7 @@ em strong{
 
 .titulo-proyectos-personales{
     font-size: 2rem;
-    color: #FFFFFF;
+    color: whitesmoke;
     font-weight: bold;
     text-shadow: 0.1em 0.1em 0.1em rgb(120, 120, 120);
     margin-bottom: 35px;
@@ -73,7 +73,7 @@ em strong{
 }
 
 .items a{
-    background-color: lightgrey;
+    background-color: whitesmoke;
     width: 80%;
     border: 3px solid #000000;
     border-radius: 10px;
@@ -97,4 +97,8 @@ em strong{
 #Python, #HTML-CSS, #HACKED{
     max-height: 60px;
     margin: 10px;
+}
+
+#HTML-CSS, #HACKED {
+    max-height: 80px;
 }

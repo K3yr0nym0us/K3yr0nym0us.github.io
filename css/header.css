@@ -2,7 +2,7 @@
     padding: 30px;
     font-size: 40px;
     font-weight: bold;
-    background: lightgrey;
+    background: whitesmoke;
     text-align: center;
     text-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173)
 }
@@ -12,7 +12,7 @@
     text-align: center;
     margin: 0 auto;
     background: #000000;
-    padding: 15px;
+    padding: 10px;
     text-shadow: 0.1em 0.1em 0.1em rgb(60, 60, 60)
 }
 
@@ -35,13 +35,18 @@ nav li{
 
 nav a{
     text-transform: uppercase;
-    color: #ececec;
+    color: whitesmoke;
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
+    padding-bottom: 5px;
 }
 
 .menu a:hover{
     cursor: pointer;
-    border-bottom: 2px solid #ececec;
+    border-bottom: 3px solid whitesmoke;
+}
+
+#active {
+    border-bottom: 3px solid whitesmoke;
 }

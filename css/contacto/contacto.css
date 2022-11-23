@@ -1,5 +1,5 @@
 .cuerpo {
-    background: #efefef;
+    background: whitesmoke;
 }
 
 .informacion {
@@ -42,7 +42,7 @@ form label, form legend{
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
-    color: white;
+    color: whitesmoke;
     background: rgb(168, 168, 168);
     border: none;
     border-radius: 5px;
@@ -66,8 +66,8 @@ table{
 }
 
 thead{
-    background: #555555;
-    color: #BBBBBB;
+    background: whitesmoke;
+    color: #000000;
     font-weight: bold;
 }
 
