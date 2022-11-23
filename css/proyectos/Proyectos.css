@@ -8,7 +8,7 @@
 }
 
 .primera__seccion{
-    background: url(../../img/code2.png);
+    background: url(../../img/bannerCode.svg);
     background-size: cover;
     text-align: center;
     align-items: center;
@@ -16,7 +16,7 @@
 }
 
 .segunda__seccion{
-    background: url(../../img/bannerportafolio3.jpg) no-repeat;
+    background: url(../../img/bannerNegro.svg) no-repeat;
     background-size: cover;
     text-align: center;
     align-items: center;
