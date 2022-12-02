@@ -5,4 +5,5 @@ titulo.addEventListener("click", () => {
     let masMenos = document.querySelector("[data-mas-menos]");
     masMenos.classList.toggle("fi-br-plus");
     masMenos.classList.toggle("fi-br-minus-small");
+    window.location.href = "Index.html#ancla"
 });

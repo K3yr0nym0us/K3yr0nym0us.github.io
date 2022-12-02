@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /*Aqui comienza el contenido*/
 .section__one {
     background: url(../../img/bannerNegro.svg);
