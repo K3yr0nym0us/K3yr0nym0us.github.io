@@ -1,0 +1,151 @@
+/*Aqui comienza el contenido*/
+.section__one {
+    background: url(../../img/bannerNegro.svg);
+    background-size: cover;
+    padding: 40px;
+    text-align: center;
+}
+
+#foto {
+    width: 10rem;
+    border-radius:50%;
+    border: 0.5px solid #000000;
+}
+
+.section__one p{
+    font-size: 2rem;
+    color: whitesmoke;
+    text-shadow: 0.1em 0.1em 0.1em rgb(26, 26, 26);
+}
+
+#linkedin, #github{
+    margin-top: 25px;
+    width: 3rem;
+}
+
+/*Aca comienza la segunda linea*/
+.section__two {
+    background: whitesmoke;
+    padding: 40px;
+    text-align: center;
+}
+
+.titulo__sobre--mi{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173);
+}
+
+p{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+em strong{
+    color: red;
+}
+
+#mision{
+    text-shadow: 0.1em 0.1em 0.1em rgb(186, 186, 186)
+}
+
+.btn__cv {
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 1px 3px 10px #000000;
+    color: dimgrey;
+    margin: 25px auto;
+}
+
+.btn__cv:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+.btn__cv:active {
+    box-shadow: none;
+}
+
+hr {
+    margin: 35px auto;
+}
+
+.titulo__formacion {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 25px auto;
+    text-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173);
+}
+
+.imgs__formacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img__one {
+    width: 400px;
+}
+
+.img__alura {
+    width: 400px;
+}
+
+/*aca comienza la tercera linea*/
+.section__three {
+    background: url(../../img/bannerportafolio.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+}
+
+.titulo__proyectos {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 3px 10px whitesmoke;
+    margin-bottom: 20px;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    text-align: center;
+    margin: 35px;
+}
+
+.items a{
+    background-color: whitesmoke;
+    width: 80%;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+
+.items a:hover{
+    border-color: #08a600;
+    cursor: pointer;
+}
+
+.items p{
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#Python, #HTML-CSS, #HACKED{
+    max-height: 60px;
+    margin: 10px;
+}
+
+#HTML-CSS, #HACKED {
+    max-height: 80px;
+}

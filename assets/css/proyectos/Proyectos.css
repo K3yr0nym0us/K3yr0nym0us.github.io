@@ -1,0 +1,70 @@
+.titulos {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-shadow: 0.1em 0.1em 0.1em rgb(26, 26, 26);
+    margin: 30px 0;
+}
+
+.section__web {
+    background: url(../../img/bannerNegro.svg) no-repeat;
+}
+
+.section__py {
+    background: url(../../img/bannerCode.svg) no-repeat;
+}
+
+.section__hack {
+    background: url(../../img/portafolio2.jpg) no-repeat;
+}
+
+.section__web, .section__py, .section__hack{
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    text-align: center;
+}
+
+.items a {
+    background-color: whitesmoke;
+    width: 80%;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px;
+    margin: 20px auto;
+}
+
+.items a:hover{
+    border-color: #08a600;
+    cursor: pointer;
+}
+
+.items p{
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.items img {
+    max-height: 60px;
+    margin: 10px;
+}
+
+hr{
+    background: whitesmoke;
+    padding: 2px;
+    margin: 0 0 0 0;
+    border: 0;
+}
+
+#inventario {
+    grid-column: 2;
+}

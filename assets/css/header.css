@@ -1,0 +1,52 @@
+.titulo-principal{
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    background: whitesmoke;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173)
+}
+
+.menu{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background: #000000;
+    padding: 10px;
+    text-shadow: 0.1em 0.1em 0.1em rgb(60, 60, 60)
+}
+
+.menu-fixed {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+}
+
+nav{
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.menu a:hover{
+    cursor: pointer;
+    border-bottom: 3px solid whitesmoke;
+}
+
+#active {
+    border-bottom: 3px solid whitesmoke;
+}
