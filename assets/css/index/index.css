@@ -76,16 +76,34 @@ hr {
 }
 
 .titulo__formacion {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     margin: 25px auto;
     text-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173);
+}
+
+.titulo__formacion:hover {
+    cursor: pointer;
+}
+
+.fi-br-plus {
+    font-size: 20px;
+}
+
+.fi-br-minus-small {
+    font-size: 20px;
 }
 
 .imgs__formacion {
     display: flex;
     align-items: center;
     justify-content: center;
+    visibility: visible;
+}
+
+.imgs__formacion__invisible {
+    visibility: hidden;
+    display: none;
 }
 
 .img__one {
