@@ -1,21 +1,21 @@
 /*Aqui comienza el contenido*/
-.linea-principal{
+.section__one {
     background: url(../../img/bannerNegro.svg);
     background-size: cover;
     padding: 40px;
     text-align: center;
 }
 
-#foto{
+#foto {
     width: 10rem;
     border-radius:50%;
     border: 0.5px solid #000000;
 }
 
-.linea-principal p{
+.section__one p{
     font-size: 2rem;
     color: whitesmoke;
-    text-shadow: 0.1em 0.1em 0.1em rgb(80, 80, 80)
+    text-shadow: 0.1em 0.1em 0.1em rgb(26, 26, 26);
 }
 
 #linkedin, #github{
@@ -24,17 +24,17 @@
 }
 
 /*Aca comienza la segunda linea*/
-.linea-secundaria{
+.section__two {
     background: whitesmoke;
     padding: 40px;
     text-align: center;
 }
 
-.titulo-sobre-mi{
-    font-size: 2rem;
+.titulo__sobre--mi{
+    font-size: 2.5rem;
     font-weight: bold;
     padding: 10px;
-    text-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173)
+    text-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173);
 }
 
 p{
@@ -50,26 +50,73 @@ em strong{
     text-shadow: 0.1em 0.1em 0.1em rgb(186, 186, 186)
 }
 
+.btn__cv {
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 1px 3px 10px #000000;
+    color: dimgrey;
+    margin: 25px auto;
+}
+
+.btn__cv:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+.btn__cv:active {
+    box-shadow: none;
+}
+
+hr {
+    margin: 35px auto;
+}
+
+.titulo__formacion {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 25px auto;
+    text-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173);
+}
+
+.imgs__formacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img__one {
+    width: 400px;
+}
+
+.img__alura {
+    width: 400px;
+}
+
 /*aca comienza la tercera linea*/
-.linea-tercera{
+.section__three {
     background: url(../../img/bannerportafolio.jpg) no-repeat;
     background-size: cover;
     text-align: center;
     padding: 50px;
 }
 
-.titulo-proyectos-personales{
-    font-size: 2rem;
-    color: whitesmoke;
+.titulo__proyectos {
+    font-size: 2.5rem;
+    color: black;
     font-weight: bold;
-    text-shadow: 0.1em 0.1em 0.1em rgb(120, 120, 120);
-    margin-bottom: 35px;
+    text-shadow: 1px 3px 10px whitesmoke;
+    margin-bottom: 20px;
 }
 
 .items{
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     text-align: center;
+    margin: 35px;
 }
 
 .items a{
