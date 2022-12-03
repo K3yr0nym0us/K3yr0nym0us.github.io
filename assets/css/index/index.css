@@ -102,12 +102,18 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    visibility: visible;
+    height: auto;
+    padding: auto;
+    opacity: 1;
+    transition: opacity 2s linear;
 }
 
 .imgs__formacion__invisible {
-    visibility: hidden;
-    display: none;
+    display: block;
+    height: 0;
+    padding: 0;
+    opacity: 0;
+    transition: opacity 0s linear;
 }
 
 .img__one {
