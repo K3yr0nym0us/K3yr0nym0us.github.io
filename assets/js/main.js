@@ -1,17 +1,19 @@
-$(document).ready(function(){
-    /*creamos una variable llamada altura que contendra
-    el valor en pixeles de la diferencia que hay entre
-    el objeto de clase menu y el top de la pantalla*/
-    var altura = $('.menu').offset().top;
-
-    $(window).on('scroll', function(){
-        /*si el scroll del sitio es mayor a altura*/
-        if ( $(window).scrollTop() > altura ){
-            /*entonces se añade la clase menu-fixed*/
-            $('.menu').addClass('menu-fixed');
-        } else {
-            /*sino se remueve la clase*/
-            $('.menu').removeClass('menu-fixed');
+//aca capturamos la carga de la pagina
+document.addEventListener( "DOMContentLoaded", () => {
+    var menu = document.querySelector('.menu');
+    var titulo = document.querySelector(".titulo-principal");
+    window.onscroll = () => {
+        var alturaMenu = menu.getBoundingClientRect().top;
+        var alturaTitulo = titulo.getBoundingClientRect().top;
+        //si el scroll del sitio es mayor a altura
+        if (alturaMenu <= 0) {
+            //entonces se añade la clase menu-fixed
+            menu.classList.add('menu-fixed');
         }
-    })
+        if (alturaTitulo >= -55) {
+            //sino se remueve la clase
+            menu.classList.remove('menu-fixed');
+        };
+    };
+    
 });
