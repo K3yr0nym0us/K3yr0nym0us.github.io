@@ -177,3 +177,82 @@ hr {
 #HTML-CSS, #HACKED {
     max-height: 80px;
 }
+
+@media (max-width: 600px) {
+    #foto {
+        width: 7rem;
+        border-radius:50%;
+        border: 0.5px solid #000000;
+    }
+
+    #nombre {
+        font-size: 1.8rem;
+    }
+
+    .section__one {
+        padding: 40px 0;
+    }
+
+    .section__one p{
+        font-size: 1.5rem;
+        color: whitesmoke;
+        text-shadow: 0.1em 0.1em 0.1em rgb(26, 26, 26);
+    }
+
+    #habilidades {
+        font-size: 23px;
+        padding: 0;
+    }
+
+    .section__two {
+        padding: 40px 0;
+    }
+
+    .titulo__sobre--mi {
+        font-size: 35px;
+    }
+
+    .section__two p {
+        font-size: 17px;
+    }
+
+    #detalles {
+        font-size: 15px;
+    }
+
+    .titulo__formacion {
+        font-size: 25px;
+    }
+
+    .imgs__formacion {
+        display: grid;
+    }
+
+    .img__one {
+        width: 250px;
+    }
+
+    .img__alura {
+        width: 250px;
+    }
+
+    .section__three {
+        padding: 20px 0;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+
+    .items a {
+        margin: 5px;
+        padding: 0;
+    }
+
+    .items a:nth-of-type(1) {
+        order: 2;
+    }
+}
