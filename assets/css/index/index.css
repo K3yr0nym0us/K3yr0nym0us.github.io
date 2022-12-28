@@ -1,57 +1,34 @@
-html {
-    scroll-behavior: smooth;
+body {
+    background-color: whitesmoke;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
 }
 
 /*Aqui comienza el contenido*/
 .section__one {
-    background: url(../../img/bannerNegro.svg);
-    background-size: cover;
-    padding: 40px;
-    text-align: center;
+    text-align: left;
+    margin-top: 50px;
 }
 
-#foto {
-    width: 10rem;
-    border-radius:50%;
-    border: 0.5px solid #000000;
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.section__one p{
-    font-size: 2rem;
-    color: whitesmoke;
-    text-shadow: 0.1em 0.1em 0.1em rgb(26, 26, 26);
+.text__container {
+    margin: 100px;
 }
 
-#linkedin, #github{
-    margin-top: 25px;
-    width: 3rem;
+.hello {
+    font-size: 40px;
+    margin: 5px auto;
 }
 
-/*Aca comienza la segunda linea*/
-.section__two {
-    background: whitesmoke;
-    padding: 40px;
-    text-align: center;
-}
-
-.titulo__sobre--mi{
-    font-size: 2.5rem;
-    font-weight: bold;
-    padding: 10px;
-    text-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173);
-}
-
-p{
-    font-size: 1.5rem;
-    padding: 10px;
-}
-
-em strong{
-    color: red;
-}
-
-#mision{
-    text-shadow: 0.1em 0.1em 0.1em rgb(186, 186, 186)
+.name {
+    font-size: 50px;
+    margin: 5px auto;
 }
 
 .btn__cv {
@@ -75,45 +52,83 @@ em strong{
     box-shadow: none;
 }
 
+.dev {
+    font-size: 24px;
+    margin: 15px auto;
+}
+
+img {
+    width: 500px;
+}
+
+.separator {
+    margin: 0 auto;
+}
+
+/*Aca comienza la segunda linea*/
+.section__two {
+    background: whitesmoke;
+    text-align: center;
+}
+
+h2, h3, h4, h5{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 45px auto;
+    text-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173);
+}
+
+.skills__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.square__white {
+    background-color: white;
+    box-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173);
+    width: 300px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 0 auto 25px auto;
+}
+
+.square__white:hover {
+    cursor: pointer;
+    border: 2px solid grey;
+}
+
+.img__square {
+    width: 150px;
+    margin: 15px auto 5px auto;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 hr {
     margin: 35px auto;
 }
 
-.titulo__formacion {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 25px auto;
-    text-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173);
+/*seccion three*/
+.section__three {
+    text-align: center;
 }
 
-.titulo__formacion:hover {
-    cursor: pointer;
-}
-
-.fi-br-plus {
-    font-size: 20px;
-}
-
-.fi-br-minus-small {
-    font-size: 20px;
-}
-
-.imgs__formacion {
+.imgs__formacion, .imgs__contact {
     display: flex;
     align-items: center;
     justify-content: center;
     height: auto;
     padding: auto;
-    opacity: 1;
-    transition: opacity 2s linear;
 }
 
-.imgs__formacion__invisible {
-    display: block;
-    height: 0;
-    padding: 0;
-    opacity: 0;
-    transition: opacity 0s linear;
+.img__ciisa {
+    width: 250px;
 }
 
 .img__one {
@@ -121,63 +136,20 @@ hr {
 }
 
 .img__alura {
-    width: 400px;
+    width: 350px;
 }
 
-/*aca comienza la tercera linea*/
-.section__three {
-    background: url(../../img/bannerportafolio.webp) no-repeat;
-    background-size: cover;
+/*section fourt*/
+.section__fourt {
     text-align: center;
-    padding: 50px;
 }
 
-.titulo__proyectos {
-    font-size: 2.5rem;
-    color: black;
-    font-weight: bold;
-    text-shadow: 1px 3px 10px whitesmoke;
-    margin-bottom: 20px;
+.img__github, .img__linkedin, .img__gmail {
+    width: 100px;
+    margin: 25px 45px;
 }
 
-.items{
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    text-align: center;
-    margin: 35px;
-}
-
-.items a{
-    background-color: whitesmoke;
-    width: 80%;
-    border: 3px solid #000000;
-    border-radius: 10px;
-    text-decoration: none;
-    padding: 5px;
-    margin: 0 auto;
-}
-
-
-.items a:hover{
-    border-color: #08a600;
-    cursor: pointer;
-}
-
-.items p{
-    color: #000000;
-    font-size: 1.4rem;
-    font-weight: bold;
-}
-
-#Python, #HTML-CSS, #HACKED{
-    max-height: 60px;
-    margin: 10px;
-}
-
-#HTML-CSS, #HACKED {
-    max-height: 80px;
-}
-
+/*Configuracion responsiva*/
 @media (max-width: 600px) {
     #foto {
         width: 7rem;
