@@ -1,8 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: whitesmoke;
     font-family: "Rubik", sans-serif;
     font-weight: 500;
-    scroll-behavior: smooth;
 }
 
 /*Aqui comienza el contenido*/
@@ -39,7 +42,7 @@ body {
     width: 0;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 2.5s steps(22) 1s 1 normal both, blink 1s steps(1) infinite;
+    animation: typing 2.5s steps(22) 1s 1 normal both;
 }
 
 @keyframes typing {
@@ -141,6 +144,21 @@ hr {
 /*seccion three*/
 .section__three {
     text-align: center;
+}
+
+.imgs__formacion--hidden {
+    transition: opacity linear 0.7s;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: auto;
+}
+
+.imgs__formacion {
+    transition: opacity linear 0.7s;
+    opacity: 1;
 }
 
 .imgs__formacion, .imgs__contact {
