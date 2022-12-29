@@ -4,7 +4,7 @@ window.addEventListener('scroll', () => {
 });
 
 const efectoImgsFormacion = () => {
-    const element = document.querySelector("[data-formacion]");
+    const element = document.querySelector('[data-formacion]');
     const position = element.getBoundingClientRect();
     if (position.top <= 500 && position.top >= -50) {
         element.classList.replace('imgs__formacion--hidden', 'imgs__formacion');
@@ -26,7 +26,7 @@ const changeIdMenu = () => {
             menus.forEach( (menu) => {
                 const capturaMenu = menu.childNodes[0];
                 const containMenu = capturaMenu.innerHTML.toLowerCase();
-                
+
                 capturaMenu.removeAttribute('id');
                 if (id == containMenu) {
                     menu.childNodes[0].setAttribute("id", "active");
