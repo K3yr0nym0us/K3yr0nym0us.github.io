@@ -38,3 +38,23 @@ nav a{
     font-weight: bold;
     border-bottom: 3px solid black;
 }
+
+@media (max-width: 600px) {
+
+    .menu-fixed {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    nav a {
+        display: none;
+        font-size: 25px;
+    }
+    
+    #active {
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
+        padding: 0;
+    }
+}

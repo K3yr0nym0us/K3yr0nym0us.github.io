@@ -4,14 +4,20 @@ window.addEventListener('scroll', () => {
 });
 
 const efectoImgsFormacion = () => {
-    const element = document.querySelector('[data-formacion]');
-    const position = element.getBoundingClientRect();
-    if (position.top <= 500 && position.top >= -50) {
-        element.classList.replace('imgs__formacion--hidden', 'imgs__formacion');
+    if (window.innerWidth >= 600) {
+        const element = document.querySelector('[data-formacion]');
+        const position = element.getBoundingClientRect();
+        if (position.top <= 500 && position.top >= -50) {
+            element.classList.replace('imgs__formacion--hidden', 'imgs__formacion');
+        } else {
+            element.classList.remove('imgs__formacion');
+            element.classList.add('imgs__formacion--hidden');
+        };
     } else {
-        element.classList.remove('imgs__formacion');
-        element.classList.add('imgs__formacion--hidden');
+        const element = document.querySelector('[data-formacion]');
+        element.classList.replace('imgs__formacion--hidden', 'imgs__formacion');
     };
+
 };
 
 const changeIdMenu = () => {

@@ -1,0 +1,33 @@
+/*Configuracion responsiva*/
+@media (max-width: 600px) {
+    .container img {
+        display: none;
+    }
+
+    .text__container {
+        margin: 0 25%;
+    }
+
+    .skills__container {
+        flex-direction: column;
+    }
+
+    .imgs__formacion__hidden {
+        transition: none;
+        opacity: 1;
+        flex-direction: column;
+    }
+
+    .imgs__formacion {
+        flex-direction: column;
+        transition: none;
+    }
+
+    .img__ciisa {
+        margin: 0 auto;
+    }
+
+    .imgs__contact {
+        width: 90%;
+    }
+}
