@@ -41,6 +41,10 @@ body {
     animation: typing 2.5s steps(22) 1s 1 normal both;
 }
 
+.img__dev {
+    margin: auto;
+}
+
 @keyframes typing {
     from {
       width: 0;
@@ -143,7 +147,7 @@ hr {
     opacity: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .imgs__formacion {
@@ -151,7 +155,7 @@ hr {
     opacity: 1;
 }
 
-.imgs__formacion, .imgs__contact {
+.imgs__formacion {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -183,6 +187,14 @@ hr {
 .img__admin {
     width: 100px;
     margin: 25px;
+}
+
+.imgs__contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 33.33%;
+    margin: 0 auto;
 }
 
 .img__github, .img__linkedin, .img__gmail {
