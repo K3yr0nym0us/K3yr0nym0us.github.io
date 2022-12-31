@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio Web Developer">
+        <title>Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/ico" href="assets/img/portafolio.ico"/>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/index/index.css">
+        <link rel="stylesheet" href="assets/css/index/indexMovile.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+    </head>
+    
+    <body>
+        <header>
+            <div class="menu-fixed">
+                <nav>
+                    <ul>
+                        <li><a id="active" href="index.html">HOME</a></li>
+                        <li><a href="index.html#habilidades">HABILIDADES</a></li>
+                        <li><a href="index.html#formacion">FORMACION</a></li>
+                        <li><a href="index.html#proyectos">PROYECTOS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <hr id="home">
+            <section class="section__one">
+                <div class="container">
+                    <div class="text__container">
+                        <p class="hello">
+                            HOLA
+                        </p>
+                        <p class="name">
+                            Soy Kevin Martinez
+                        </p>
+                        <p class="dev">
+                            Web Developer Trainee
+                        </p>
+                        <a href="assets/pdf/Curriculum Dev.pdf" target="_blank">
+                            <button class="btn__cv">Descargar CV</button>
+                        </a>
+                    </div>
+                    <div class="img__dev">
+                        <img src="/assets/img/caricatura.webp" alt="Desarrollador web">
+                    </div>
+                </div>
+            </section>
+            <hr id="habilidades">
+            <section class="section__two">
+                <h2>Mis habilidades</h2>
+                <div class="skills__container">
+                    <div class="square__white">
+                        <img class="img__square" src="/assets/img/html-css-js-logo.webp" alt="HTML CSS JavasScript">
+                        <p class="description">Front-End</p>
+                    </div>
+                    <div class="square__white">
+                        <img class="img__square" src="/assets/img/nodejs-mysql.webp" alt="NodeJS MySql">
+                        <p class="description">Back-End</p>
+                    </div>
+                    <div class="square__white">
+                        <img class="img__square" src="/assets/img/herramientas.webp" alt="Git Github Consola VSCode">
+                        <p class="description">Herramientas</p>
+                    </div>
+                </div>
+            </section>
+            <hr id="formacion">
+            <section class="section__three">
+                <h3>Mi Formación</h3>
+                <div class="imgs__formacion--hidden" data-formacion>
+                    <img class="img__ciisa" src="/assets/img/ciisa.webp" alt="Ciisa Instituto de ciencias tecnologicas">
+                    <img class="img__one" src="assets/img/One.webp" alt="Oracle Next Educations">
+                    <img class="img__alura" src="assets/img/aluraoracle.webp" alt="alura-latam">
+                </div>
+            </section>
+            <hr id="proyectos">
+            <section class="section__fourt">
+                <h4>Mis Proyectos</h4>
+                <div class="skills__container">
+                    <div class="square__white">
+                        <a href="https://k3yr0nym0us.github.io/Index.html" target="_blank">
+                            <img class="img__portfolio" src="/assets/img/portafolio.png" alt="">
+                            <p class="description">Mi Portafolio</p>
+                        </a>
+                    </div>
+                    <div class="square__white">
+                        <a href="https://minventario.cl/" target="_blank">
+                            <img class="img__square" src="/assets/img/Logo.webp" alt="">
+                            <p class="description">Minventario.cl</p>
+                        </a>
+                    </div>
+                    <div class="square__white">
+                        <a href="https://github.com/K3yr0nym0us/Administrador-de-tareas-pendientes" target="_blank">
+                            <img class="img__admin" src="/assets/img/github-codes.webp" alt="">
+                            <p class="description">Administrador de Tareas</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section__five">
+                <h5>Contacto</h5>
+                <div class="imgs__contact">
+                    <a href="https://github.com/K3yr0nym0us" target="_blank">
+                        <img class="img__github" src="/assets/img/github.webp" alt="github">
+                    </a>
+                    <a href="https://www.linkedin.com/in/kevin-martinez-barra/" target="_blank">
+                        <img class="img__linkedin" src="assets/img/linkedin.webp" alt="linkedin">
+                    </a>
+                    <a href="mailto:kevinmartinezbarra@gmail.com">
+                        <img class="img__gmail" src="assets/img/gmail.png" alt="gmail">
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class="Copyright">&copy Copyrigth K3yr0nym0us - 2022</p>
+        </footer>
+        <script src="/assets/js/index.js"></script>
+    </body>
+</html>
