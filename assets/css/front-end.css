@@ -1,0 +1,37 @@
+body {
+    background-color: whitesmoke;
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    background-color: white;
+    width: 650px;
+    margin: 70px auto;
+    border: 1px solid grey;
+    border-radius: 25px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 1px 3px 10px #000000;
+}
+
+img {
+    width: 50px;
+}
+
+h1 {
+    text-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173);
+    font-size: 32px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+p {
+    margin: 5px;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 25px auto 5px auto;
+}
