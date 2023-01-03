@@ -55,6 +55,7 @@ body {
 }
 
 .btn__cv {
+    background-color: white;
     border: none;
     border-radius: 30px;
     width: 150px;

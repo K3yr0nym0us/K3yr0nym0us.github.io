@@ -15,23 +15,18 @@ body {
 }
 
 img {
-    width: 50px;
+    width: 150px;
+    margin: 25px auto 10px auto;
 }
 
 h1 {
     text-shadow: 0.1em 0.1em 0.1em rgb(173, 173, 173);
     font-size: 32px;
     font-weight: 500;
-    margin: 5px;
+    margin: 15px;
 }
 
 p {
     margin: 10px;
     font-size: 18px;
-}
-
-h2 {
-    font-size: 22px;
-    font-weight: 500;
-    margin: 25px auto 5px auto;
 }
