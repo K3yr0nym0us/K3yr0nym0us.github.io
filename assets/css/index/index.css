@@ -112,6 +112,7 @@ h2, h3, h4, h5{
 
 .square__white:hover {
     cursor: pointer;
+    transition: border linear 50ms;
     border: 2px solid grey;
 }
 
